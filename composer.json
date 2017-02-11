@@ -25,8 +25,7 @@
         "psr-4": {
             "App\\": "app/",
             "EONConsulting\\PHPSaasWrapper\\": "packages/PHPSaasWrapper/src",
-            "JoshHarington\\LaravelLTI\\": "packages/LaravelLTI/src/",
-            "JoshHarington\\LaravelTsugi\\": "packages/LaravelTsugi/src/",
+            "EONConsulting\\LaravelLTI\\": "packages/LaravelLTI/src/",
             "EONConsulting\\Storyline\\Breadcrumbs\\": "packages/StorylineBreadcrumbs/src/",
             "EONConsulting\\Storyline\\Core\\": "packages/StorylineCore/src/",
             "EONConsulting\\Storyline\\Menu\\": "packages/StorylineMenu/src/",
@@ -39,13 +38,11 @@
             "Cviebrock\\LaravelElasticsearch\\" : "packages/StorylineSearch/vendor/cviebrock/laravel-elasticsearch/src/",
             "Elasticsearch\\" : "packages/StorylineSearch/vendor/elasticsearch/elasticsearch/src/",
             "GuzzleHttp\\Ring\\" : "packages/StorylineSearch/vendor/guzzlehttp/ringphp/src/",
-            "React\\Promise\\" : "packages/StorylineSearch/vendor/react/promise/src/",
-            "Tsugi\\": "packages/LaravelTsugi/vendor/tsugi/lib/src"
+            "React\\Promise\\" : "packages/StorylineSearch/vendor/react/promise/src/"
         },
         "files": [
             "packages/PHPSaasWrapper/src/Http/helpers.php",
-            "packages/LaravelLTI/src/Helpers/helpers.php",
-            "packages/LaravelTsugi/src/Helpers/functions.php",
+            "packages/LaravelLTI/src/functions.php",
             "packages/StorylineBreadcrumbs/src/functions.php",
             "packages/StorylineCore/src/functions.php",
             "packages/StorylineMenu/src/functions.php",
@@ -55,8 +52,7 @@
             "packages/StorylineTagCloud/src/functions.php",
             "packages/MetaClassification/src/functions.php",
             "packages/RolesPermissions/src/functions.php",
-            "packages/AppStore/src/functions.php",
-            "packages/LaravelTsugi/src/Controllers/config.php"
+            "packages/AppStore/src/functions.php"
         ]
     },
     "autoload-dev": {

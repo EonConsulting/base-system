@@ -8,10 +8,12 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
 
-    <title><?php echo e(config('app.name', 'Laravel')); ?></title>
+    <title><?php echo e(env('APP_NAME', 'Laravel')); ?></title>
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+
+    <?php echo $__env->yieldContent('custom-styles'); ?>
 
     <!-- Scripts -->
     <script>
@@ -86,5 +88,6 @@
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    <?php echo $__env->yieldContent('custom-scripts'); ?>
 </body>
 </html>

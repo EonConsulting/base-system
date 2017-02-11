@@ -12767,3 +12767,45 @@ Stack trace:
 [2017-02-11 11:16:54] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined function EONConsulting\Meta\get_label()' in /Applications/MAMP/htdocs/tools/packages/MetaClassification/src/MetaClassification.php:83
 Stack trace:
 #0 {main}  
+[2017-02-11 23:16:26] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'JoshHarington\LaravelLTI\LaravelLTIServiceProvider' not found' in /Applications/MAMP/htdocs/tools/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-02-11 23:16:43] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/../../../vendor/tsugi/lib/' (include_path='.:/Applications/MAMP/bin/php/php5.6.28/lib/php')' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/LTIBaseController.php:11
+Stack trace:
+#0 {main}  
+[2017-02-11 23:16:45] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/../../../vendor/tsugi/lib/' (include_path='.:/Applications/MAMP/bin/php/php5.6.28/lib/php')' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/LTIBaseController.php:11
+Stack trace:
+#0 {main}  
+[2017-02-11 23:17:32] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare die_with_error_log() (previously declared in /Applications/MAMP/htdocs/tools/packages/LaravelTsugi/vendor/tsugi/lib/include/setup.php:18)' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/setup.php:22
+Stack trace:
+#0 {main}  
+[2017-02-11 23:18:16] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare die_with_error_log() (previously declared in /Applications/MAMP/htdocs/tools/packages/LaravelTsugi/vendor/tsugi/lib/include/setup.php:18)' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/setup.php:22
+Stack trace:
+#0 {main}  
+[2017-02-11 23:20:46] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare die_with_error_log() (previously declared in /Applications/MAMP/htdocs/tools/packages/LaravelTsugi/vendor/tsugi/lib/include/setup.php:18)' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/setup.php:22
+Stack trace:
+#0 {main}  
+[2017-02-11 23:20:47] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare die_with_error_log() (previously declared in /Applications/MAMP/htdocs/tools/packages/LaravelTsugi/vendor/tsugi/lib/include/setup.php:18)' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/setup.php:22
+Stack trace:
+#0 {main}  
+[2017-02-11 23:21:13] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot redeclare die_with_error_log() (previously declared in /Applications/MAMP/htdocs/tools/packages/LaravelTsugi/vendor/tsugi/lib/include/setup.php:18)' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/setup.php:22
+Stack trace:
+#0 {main}  
+[2017-02-11 23:22:58] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php5.6.28/lib/php')' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/lms_lib.php:11
+Stack trace:
+#0 {main}  
+[2017-02-11 23:23:48] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/Applications/MAMP/htdocs/tools/app//Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/../../../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php5.6.28/lib/php')' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/config.php:11
+Stack trace:
+#0 {main}  
+[2017-02-11 23:24:19] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php5.6.28/lib/php')' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/lms_lib.php:3
+Stack trace:
+#0 {main}  
+[2017-02-11 23:24:25] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/Applications/MAMP/htdocs/tools/app//Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/../../../vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php5.6.28/lib/php')' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/config.php:22
+Stack trace:
+#0 {main}  
+[2017-02-11 23:24:43] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/Applications/MAMP/htdocs/tools/app//Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php5.6.28/lib/php')' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/lms_lib.php:11
+Stack trace:
+#0 {main}  
+[2017-02-11 23:24:45] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/Applications/MAMP/htdocs/tools/app//Applications/MAMP/htdocs/tools/packages/LaravelLTI/src/Http/Controllers/vendor/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php5.6.28/lib/php')' in /Applications/MAMP/htdocs/tools/packages/LaravelLTI/vendor/tsugi/lib/include/lms_lib.php:11
+Stack trace:
+#0 {main}  

@@ -181,12 +181,12 @@ class AppNameCommand extends Command
     {
         $search = [
             $this->currentRoot.'\\Providers',
-            $this->currentRoot.'\\Http\\Controllers\\',
+            $this->currentRoot.'\\Http\\Http\\',
         ];
 
         $replace = [
             $this->argument('name').'\\Providers',
-            $this->argument('name').'\\Http\\Controllers\\',
+            $this->argument('name').'\\Http\\Http\\',
         ];
 
         $this->replaceIn($this->getConfigPath('app'), $search, $replace);

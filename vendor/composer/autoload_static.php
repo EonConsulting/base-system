@@ -21,8 +21,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
         '9287d16aba9daeb44f3caf65d4c032d0' => __DIR__ . '/../..' . '/packages/PHPSaasWrapper/src/Http/helpers.php',
-        '865fb390dd42c4854e9105dae0a71820' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Helpers/helpers.php',
-        '305694814f1747ebd325a8f8f6181cc6' => __DIR__ . '/../..' . '/packages/LaravelTsugi/src/Helpers/functions.php',
+        '7aa682f6bb15fc82318d99f67e0c27d6' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/functions.php',
         '566480c2b96f883b99eee5b241ff0145' => __DIR__ . '/../..' . '/packages/StorylineBreadcrumbs/src/functions.php',
         '7d1e1192622f3b30b3664c271de058e1' => __DIR__ . '/../..' . '/packages/StorylineCore/src/functions.php',
         'ab6f3ba51bc84d90ba84c71f1eba3cc2' => __DIR__ . '/../..' . '/packages/StorylineMenu/src/functions.php',
@@ -33,7 +32,6 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'ae6ffad41123853881ab36552b22bfad' => __DIR__ . '/../..' . '/packages/MetaClassification/src/functions.php',
         'f61f2212391b2dcf70f6dfaff981f35e' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/functions.php',
         'ea7408bee1ce2041c0002e453fed7a27' => __DIR__ . '/../..' . '/packages/AppStore/src/functions.php',
-        'c85d9a6930a3578b9fd9bb4b970f3c3e' => __DIR__ . '/../..' . '/packages/LaravelTsugi/src/Controllers/config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -48,10 +46,6 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
-        ),
-        'T' => 
-        array (
-            'Tsugi\\' => 6,
         ),
         'S' => 
         array (
@@ -93,11 +87,6 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         array (
             'League\\Flysystem\\' => 17,
         ),
-        'J' => 
-        array (
-            'JoshHarington\\LaravelTsugi\\' => 27,
-            'JoshHarington\\LaravelLTI\\' => 25,
-        ),
         'I' => 
         array (
             'Illuminate\\' => 11,
@@ -126,6 +115,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
             'EONConsulting\\RolesPermissions\\' => 31,
             'EONConsulting\\PHPSaasWrapper\\' => 29,
             'EONConsulting\\Meta\\' => 19,
+            'EONConsulting\\LaravelLTI\\' => 25,
             'EONConsulting\\AppStore\\' => 23,
         ),
         'D' => 
@@ -165,10 +155,6 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
-        ),
-        'Tsugi\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src',
         ),
         'Symfony\\Polyfill\\Util\\' => 
         array (
@@ -270,14 +256,6 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
         ),
-        'JoshHarington\\LaravelTsugi\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/packages/LaravelTsugi/src',
-        ),
-        'JoshHarington\\LaravelLTI\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/packages/LaravelLTI/src',
-        ),
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
@@ -345,6 +323,10 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\Meta\\' => 
         array (
             0 => __DIR__ . '/../..' . '/packages/MetaClassification/src',
+        ),
+        'EONConsulting\\LaravelLTI\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/LaravelLTI/src',
         ),
         'EONConsulting\\AppStore\\' => 
         array (
@@ -601,6 +583,10 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\AppStore\\AppStore' => __DIR__ . '/../..' . '/packages/AppStore/src/AppStore.php',
         'EONConsulting\\AppStore\\AppStoreServiceProvider' => __DIR__ . '/../..' . '/packages/AppStore/src/AppStoreServiceProvider.php',
         'EONConsulting\\AppStore\\Facades\\AppStore' => __DIR__ . '/../..' . '/packages/AppStore/src/Facades/AppStore.php',
+        'EONConsulting\\LaravelLTI\\Facades\\LaravelLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Facades/LaravelLTI.php',
+        'EONConsulting\\LaravelLTI\\Http\\Controllers\\LTIBaseController' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/LTIBaseController.php',
+        'EONConsulting\\LaravelLTI\\LaravelLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/LaravelLTI.php',
+        'EONConsulting\\LaravelLTI\\LaravelLTIServiceProvider' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/LaravelLTIServiceProvider.php',
         'EONConsulting\\Meta\\Classes\\Classifications' => __DIR__ . '/../..' . '/packages/MetaClassification/src/Classes/Classifications.php',
         'EONConsulting\\Meta\\Classes\\Elements' => __DIR__ . '/../..' . '/packages/MetaClassification/src/Classes/Elements.php',
         'EONConsulting\\Meta\\Database\\Seeders\\MetaClassificationSeeders' => __DIR__ . '/../..' . '/packages/MetaClassification/src/database/seeders/MetaClassificationSeeders.php',
@@ -2065,26 +2051,6 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
-        'JoshHarington\\LaravelLTI\\Classes\\Data\\DataConn' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Classes/Data/DataConn.php',
-        'JoshHarington\\LaravelLTI\\Classes\\Data\\Item' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Classes/Data/Item.php',
-        'JoshHarington\\LaravelLTI\\Classes\\Tools\\ToolConsumer' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Classes/Tools/ToolConsumer.php',
-        'JoshHarington\\LaravelLTI\\Classes\\Tools\\ToolProvider' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Classes/Tools/ToolProvider.php',
-        'JoshHarington\\LaravelLTI\\Facades\\LaravelLTIFacade' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Facades/LaravelLTIFacade.php',
-        'JoshHarington\\LaravelLTI\\Http\\Controllers\\ImportLTIToolController' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/ImportLTIToolController.php',
-        'JoshHarington\\LaravelLTI\\Http\\Controllers\\LTIController' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/LTIController.php',
-        'JoshHarington\\LaravelLTI\\LaravelLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/LaravelLTI.php',
-        'JoshHarington\\LaravelLTI\\LaravelLTIServiceProvider' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/LaravelLTIServiceProvider.php',
-        'JoshHarington\\LaravelLTI\\Models\\LTI2Consumer' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Models/LTI2Consumer.php',
-        'JoshHarington\\LaravelLTI\\Models\\LTI2Context' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Models/LTI2Context.php',
-        'JoshHarington\\LaravelLTI\\Models\\LTI2Nonce' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Models/LTI2Nonce.php',
-        'JoshHarington\\LaravelLTI\\Models\\LTI2ResourceLink' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Models/LTI2ResourceLink.php',
-        'JoshHarington\\LaravelLTI\\Models\\LTI2ShareKey' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Models/LTI2ShareKey.php',
-        'JoshHarington\\LaravelLTI\\Models\\LTI2ToolProxy' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Models/LTI2ToolProxy.php',
-        'JoshHarington\\LaravelLTI\\Models\\LTI2UserResult' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Models/LTI2UserResult.php',
-        'JoshHarington\\LaravelTsugi\\Controllers\\TsugiController' => __DIR__ . '/../..' . '/packages/LaravelTsugi/src/Controllers/TsugiController.php',
-        'JoshHarington\\LaravelTsugi\\Facades\\LaravelTsugi' => __DIR__ . '/../..' . '/packages/LaravelTsugi/src/Facades/LaravelTsugi.php',
-        'JoshHarington\\LaravelTsugi\\LaravelTsugi' => __DIR__ . '/../..' . '/packages/LaravelTsugi/src/LaravelTsugi.php',
-        'JoshHarington\\LaravelTsugi\\LaravelTsugiServiceProvider' => __DIR__ . '/../..' . '/packages/LaravelTsugi/src/LaravelTsugiServiceProvider.php',
         'League\\Flysystem\\AdapterInterface' => __DIR__ . '/..' . '/league/flysystem/src/AdapterInterface.php',
         'League\\Flysystem\\Adapter\\AbstractAdapter' => __DIR__ . '/..' . '/league/flysystem/src/Adapter/AbstractAdapter.php',
         'League\\Flysystem\\Adapter\\AbstractFtpAdapter' => __DIR__ . '/..' . '/league/flysystem/src/Adapter/AbstractFtpAdapter.php',
@@ -3755,65 +3721,6 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'Symfony\\Polyfill\\Util\\TestListener' => __DIR__ . '/..' . '/symfony/polyfill-util/TestListener.php',
         'TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
-        'Tsugi\\Blob\\Access' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Blob/Access.php',
-        'Tsugi\\Blob\\BlobUtil' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Blob/BlobUtil.php',
-        'Tsugi\\Config\\ConfigInfo' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Config/ConfigInfo.php',
-        'Tsugi\\Core\\Cache' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Cache.php',
-        'Tsugi\\Core\\ContentItem' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/ContentItem.php',
-        'Tsugi\\Core\\Context' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Context.php',
-        'Tsugi\\Core\\Debug' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Debug.php',
-        'Tsugi\\Core\\Entity' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Entity.php',
-        'Tsugi\\Core\\LTIX' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/LTIX.php',
-        'Tsugi\\Core\\Launch' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Launch.php',
-        'Tsugi\\Core\\Link' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Link.php',
-        'Tsugi\\Core\\Mail' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Mail.php',
-        'Tsugi\\Core\\Result' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Result.php',
-        'Tsugi\\Core\\Settings' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/Settings.php',
-        'Tsugi\\Core\\User' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Core/User.php',
-        'Tsugi\\Crypt\\Aes' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Crypt/Aes.php',
-        'Tsugi\\Crypt\\AesCtr' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Crypt/AesCtr.php',
-        'Tsugi\\Crypt\\SecureCookie' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Crypt/SecureCookie.php',
-        'Tsugi\\Crypt\\SimpleEncryption' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Crypt/SimpleEncryption.php',
-        'Tsugi\\Google\\GoogleLogin' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Google/GoogleLogin.php',
-        'Tsugi\\Google\\JWT' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Google/JWT.php',
-        'Tsugi\\Grades\\GradeUtil' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Grades/GradeUtil.php',
-        'Tsugi\\Grades\\SimpleGradeDetail' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Grades/SimpleGradeDetail.php',
-        'Tsugi\\Grades\\UI' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Grades/UI.php',
-        'Tsugi\\Image\\Png' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Image/Png.php',
-        'Tsugi\\Laravel\\LTIX' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Laravel/LTIX.php',
-        'Tsugi\\OAuth\\OAuthConsumer' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthConsumer.php',
-        'Tsugi\\OAuth\\OAuthDataStore' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthDataStore.php',
-        'Tsugi\\OAuth\\OAuthException' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthException.php',
-        'Tsugi\\OAuth\\OAuthRequest' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthRequest.php',
-        'Tsugi\\OAuth\\OAuthServer' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthServer.php',
-        'Tsugi\\OAuth\\OAuthSignatureMethod' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthSignatureMethod.php',
-        'Tsugi\\OAuth\\OAuthSignatureMethod_HMAC_SHA1' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthSignatureMethod_HMAC_SHA1.php',
-        'Tsugi\\OAuth\\OAuthSignatureMethod_HMAC_SHA256' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthSignatureMethod_HMAC_SHA256.php',
-        'Tsugi\\OAuth\\OAuthSignatureMethod_PLAINTEXT' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthSignatureMethod_PLAINTEXT.php',
-        'Tsugi\\OAuth\\OAuthSignatureMethod_RSA_SHA1' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthSignatureMethod_RSA_SHA1.php',
-        'Tsugi\\OAuth\\OAuthToken' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthToken.php',
-        'Tsugi\\OAuth\\OAuthUtil' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/OAuthUtil.php',
-        'Tsugi\\OAuth\\TrivialOAuthDataStore' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/OAuth/TrivialOAuthDataStore.php',
-        'Tsugi\\UI\\CrudForm' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/UI/CrudForm.php',
-        'Tsugi\\UI\\Lessons' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/UI/Lessons.php',
-        'Tsugi\\UI\\Menu' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/UI/Menu.php',
-        'Tsugi\\UI\\MenuEntry' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/UI/MenuEntry.php',
-        'Tsugi\\UI\\MenuSet' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/UI/MenuSet.php',
-        'Tsugi\\UI\\Output' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/UI/Output.php',
-        'Tsugi\\UI\\SettingsForm' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/UI/SettingsForm.php',
-        'Tsugi\\UI\\Table' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/UI/Table.php',
-        'Tsugi\\Util\\CC' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/CC.php',
-        'Tsugi\\Util\\CC_LTI' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/CC_LTI.php',
-        'Tsugi\\Util\\CC_WebLink' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/CC_WebLink.php',
-        'Tsugi\\Util\\Caliper' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/Caliper.php',
-        'Tsugi\\Util\\ContentItem' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/ContentItem.php',
-        'Tsugi\\Util\\LTI' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/LTI.php',
-        'Tsugi\\Util\\LTIConstants' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/LTIConstants.php',
-        'Tsugi\\Util\\Mersenne_Twister' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/Mersenne_Twister.php',
-        'Tsugi\\Util\\Mimeparse' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/Mimeparse.php',
-        'Tsugi\\Util\\Net' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/Net.php',
-        'Tsugi\\Util\\PDOX' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/PDOX.php',
-        'Tsugi\\Util\\TsugiDOM' => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src/Util/TsugiDOM.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',

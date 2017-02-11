@@ -166,8 +166,8 @@ return [
         /*
          * Package Service Providers...
          */
-        \JoshHarington\LaravelLTI\LaravelLTIServiceProvider::class,
-        \JoshHarington\LaravelTsugi\LaravelTsugiServiceProvider::class,
+        \EONConsulting\LaravelLTI\LaravelLTIServiceProvider::class,
+//        \JoshHarington\LaravelTsugi\LaravelTsugiServiceProvider::class,
 //        \EONConsulting\PHPSaasWrapper\src\PHPSaasWrapperServiceProvider::class,
         \EONConsulting\Meta\MetaClassificationServiceProvider::class,
         \EONConsulting\Storyline\Breadcrumbs\StorylineBreadcrumbServiceProvider::class,
@@ -237,8 +237,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        'LaravelTsugi' => \JoshHarington\LaravelTsugi\Facades\LaravelTsugi::class,
-        'LaravelLTI' => \JoshHarington\LaravelLTI\Facades\LaravelLTIFacade::class,
+//        'LaravelTsugi' => \JoshHarington\LaravelTsugi\Facades\LaravelTsugi::class,
+        'LaravelLTI' => \EONConsulting\LaravelLTI\Facades\LaravelLTI::class,
         'MetaClassification' => \EONConsulting\Meta\Facades\MetaClassification::class,
         'StorylineBreadcrumbs' => \EONConsulting\Storyline\Breadcrumbs\Facade\StorylineBreadcrumbs::class,
         'StorylineCore' => \EONConsulting\Storyline\Core\Facades\StorylineCore::class,

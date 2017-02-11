@@ -20,8 +20,7 @@ return array(
     '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
     '4a1f389d6ce373bda9e57857d3b61c84' => $vendorDir . '/barryvdh/laravel-debugbar/src/helpers.php',
     '9287d16aba9daeb44f3caf65d4c032d0' => $baseDir . '/packages/PHPSaasWrapper/src/Http/helpers.php',
-    '865fb390dd42c4854e9105dae0a71820' => $baseDir . '/packages/LaravelLTI/src/Helpers/helpers.php',
-    '305694814f1747ebd325a8f8f6181cc6' => $baseDir . '/packages/LaravelTsugi/src/Helpers/functions.php',
+    '7aa682f6bb15fc82318d99f67e0c27d6' => $baseDir . '/packages/LaravelLTI/src/functions.php',
     '566480c2b96f883b99eee5b241ff0145' => $baseDir . '/packages/StorylineBreadcrumbs/src/functions.php',
     '7d1e1192622f3b30b3664c271de058e1' => $baseDir . '/packages/StorylineCore/src/functions.php',
     'ab6f3ba51bc84d90ba84c71f1eba3cc2' => $baseDir . '/packages/StorylineMenu/src/functions.php',
@@ -32,5 +31,4 @@ return array(
     'ae6ffad41123853881ab36552b22bfad' => $baseDir . '/packages/MetaClassification/src/functions.php',
     'f61f2212391b2dcf70f6dfaff981f35e' => $baseDir . '/packages/RolesPermissions/src/functions.php',
     'ea7408bee1ce2041c0002e453fed7a27' => $baseDir . '/packages/AppStore/src/functions.php',
-    'c85d9a6930a3578b9fd9bb4b970f3c3e' => $baseDir . '/packages/LaravelTsugi/src/Controllers/config.php',
 );

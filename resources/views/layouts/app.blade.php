@@ -8,10 +8,12 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ env('APP_NAME', 'Laravel') }}</title>
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+
+    @yield('custom-styles')
 
     <!-- Scripts -->
     <script>
@@ -84,5 +86,6 @@
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    @yield('custom-scripts')
 </body>
 </html>

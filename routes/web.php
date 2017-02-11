@@ -13,5 +13,7 @@ Route::get('/permissions', function() {
     return roles_permissions()->index();
 });
 
+Route::get('/lti', '\\EONConsulting\\LaravelLTI\\Http\\Controllers\\LTIBaseController@index');
+Route::post('/lti', '\\EONConsulting\\LaravelLTI\\Http\\Controllers\\LTIBaseController@index');
 
 Route::get('/home', 'HomeController@index');
