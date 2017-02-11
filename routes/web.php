@@ -5,8 +5,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/data', function() {
-    return meta_classification()->get_icons();
+Route::get('/app-store', function() {
+    return app_store()->get_store();
 });
 
 Route::get('/permissions', function() {
