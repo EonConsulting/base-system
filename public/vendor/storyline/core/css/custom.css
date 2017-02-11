@@ -1,0 +1,32 @@
+.subtopic-card .card-title, .subtopic-card .card-title {
+    background:#1797c8;
+    color:#fff;
+    text-transform:uppercase;
+    display:block;
+    padding:10px;
+    width:100%;
+    position:relative;
+    z-index:11;
+    font-size:13px;
+    height:75px;
+}
+
+.triangle {
+    border-right: 10px solid #1b1b1b;
+    border-bottom: 10px solid #1b1b1b;
+    width: 30px; height: 30px;
+}
+
+.previous-arrow {
+    position: fixed;
+    top: 48%;
+    left: 50px;
+    transform: rotate(-225deg);
+}
+
+.next-arrow {
+    position: fixed;
+    top: 48%;
+    right: 50px;
+    transform: rotate(-45deg);
+}
