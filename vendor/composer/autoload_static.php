@@ -32,6 +32,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         '9101915b7e9cc1b902e293603dd320c3' => __DIR__ . '/../..' . '/packages/StorylineTagCloud/src/functions.php',
         'ae6ffad41123853881ab36552b22bfad' => __DIR__ . '/../..' . '/packages/MetaClassification/src/functions.php',
         'f61f2212391b2dcf70f6dfaff981f35e' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/functions.php',
+        'ea7408bee1ce2041c0002e453fed7a27' => __DIR__ . '/../..' . '/packages/AppStore/src/functions.php',
         'c85d9a6930a3578b9fd9bb4b970f3c3e' => __DIR__ . '/../..' . '/packages/LaravelTsugi/src/Controllers/config.php',
     );
 
@@ -125,6 +126,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
             'EONConsulting\\RolesPermissions\\' => 31,
             'EONConsulting\\PHPSaasWrapper\\' => 29,
             'EONConsulting\\Meta\\' => 19,
+            'EONConsulting\\AppStore\\' => 23,
         ),
         'D' => 
         array (
@@ -343,6 +345,10 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\Meta\\' => 
         array (
             0 => __DIR__ . '/../..' . '/packages/MetaClassification/src',
+        ),
+        'EONConsulting\\AppStore\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/AppStore/src',
         ),
         'Dotenv\\' => 
         array (
@@ -592,6 +598,9 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'Dotenv\\Exception\\ValidationException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ValidationException.php',
         'Dotenv\\Loader' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Loader.php',
         'Dotenv\\Validator' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Validator.php',
+        'EONConsulting\\AppStore\\AppStore' => __DIR__ . '/../..' . '/packages/AppStore/src/AppStore.php',
+        'EONConsulting\\AppStore\\AppStoreServiceProvider' => __DIR__ . '/../..' . '/packages/AppStore/src/AppStoreServiceProvider.php',
+        'EONConsulting\\AppStore\\Facades\\AppStore' => __DIR__ . '/../..' . '/packages/AppStore/src/Facades/AppStore.php',
         'EONConsulting\\Meta\\Classes\\Classifications' => __DIR__ . '/../..' . '/packages/MetaClassification/src/Classes/Classifications.php',
         'EONConsulting\\Meta\\Classes\\Elements' => __DIR__ . '/../..' . '/packages/MetaClassification/src/Classes/Elements.php',
         'EONConsulting\\Meta\\Database\\Seeders\\MetaClassificationSeeders' => __DIR__ . '/../..' . '/packages/MetaClassification/src/database/seeders/MetaClassificationSeeders.php',
@@ -3132,6 +3141,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'React\\Promise\\PromisorInterface' => __DIR__ . '/../..' . '/packages/StorylineSearch/vendor/react/promise/src/PromisorInterface.php',
         'React\\Promise\\RejectedPromise' => __DIR__ . '/../..' . '/packages/StorylineSearch/vendor/react/promise/src/RejectedPromise.php',
         'React\\Promise\\UnhandledRejectionException' => __DIR__ . '/../..' . '/packages/StorylineSearch/vendor/react/promise/src/UnhandledRejectionException.php',
+        'RolesPermissionsDB' => __DIR__ . '/../..' . '/database/migrations/2017_01_01_000000_RolesPermissionsDB.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',

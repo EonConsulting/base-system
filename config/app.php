@@ -177,6 +177,7 @@ return [
         \EONConsulting\Storyline\Search\StorylineSearchServiceProvider::class,
         \EONConsulting\Storyline\TagCloud\StorylineTagCloudServiceProvider::class,
         \EONConsulting\RolesPermissions\RolesPermissionsServiceProvider::class,
+        \EONConsulting\AppStore\AppStoreServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
@@ -246,6 +247,7 @@ return [
         'StorylineSearch' => \EONConsulting\Storyline\Search\Facades\StorylineSearch::class,
         'StorylineTagCloud' => \EONConsulting\Storyline\TagCloud\Facades\StorylineTagCloud::class,
         'RolesPermissions' => \EONConsulting\RolesPermissions\Facades\RolesPermissions::class,
+        'AppStore' => \EONConsulting\AppStore\Facades\AppStore::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
 //        'PHPSaasWrapper' => \EONConsulting\PHPSaasWrapper\src\Facades\PHPSaasWrapper::class,
 

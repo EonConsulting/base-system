@@ -31,5 +31,6 @@ return array(
     '9101915b7e9cc1b902e293603dd320c3' => $baseDir . '/packages/StorylineTagCloud/src/functions.php',
     'ae6ffad41123853881ab36552b22bfad' => $baseDir . '/packages/MetaClassification/src/functions.php',
     'f61f2212391b2dcf70f6dfaff981f35e' => $baseDir . '/packages/RolesPermissions/src/functions.php',
+    'ea7408bee1ce2041c0002e453fed7a27' => $baseDir . '/packages/AppStore/src/functions.php',
     'c85d9a6930a3578b9fd9bb4b970f3c3e' => $baseDir . '/packages/LaravelTsugi/src/Controllers/config.php',
 );

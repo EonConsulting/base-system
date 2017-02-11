@@ -54,6 +54,7 @@ return array(
     'EONConsulting\\RolesPermissions\\' => array($baseDir . '/packages/RolesPermissions/src'),
     'EONConsulting\\PHPSaasWrapper\\' => array($baseDir . '/packages/PHPSaasWrapper/src'),
     'EONConsulting\\Meta\\' => array($baseDir . '/packages/MetaClassification/src'),
+    'EONConsulting\\AppStore\\' => array($baseDir . '/packages/AppStore/src'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),

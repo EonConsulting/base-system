@@ -35,6 +35,7 @@
             "EONConsulting\\Storyline\\TagCloud\\": "packages/StorylineTagCloud/src/",
             "EONConsulting\\Meta\\": "packages/MetaClassification/src/",
             "EONConsulting\\RolesPermissions\\": "packages/RolesPermissions/src/",
+            "EONConsulting\\AppStore\\": "packages/AppStore/src/",
             "Cviebrock\\LaravelElasticsearch\\" : "packages/StorylineSearch/vendor/cviebrock/laravel-elasticsearch/src/",
             "Elasticsearch\\" : "packages/StorylineSearch/vendor/elasticsearch/elasticsearch/src/",
             "GuzzleHttp\\Ring\\" : "packages/StorylineSearch/vendor/guzzlehttp/ringphp/src/",
@@ -54,6 +55,7 @@
             "packages/StorylineTagCloud/src/functions.php",
             "packages/MetaClassification/src/functions.php",
             "packages/RolesPermissions/src/functions.php",
+            "packages/AppStore/src/functions.php",
             "packages/LaravelTsugi/src/Controllers/config.php"
         ]
     },
