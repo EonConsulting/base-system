@@ -26,6 +26,7 @@
             "App\\": "app/",
             "EONConsulting\\PHPSaasWrapper\\": "packages/PHPSaasWrapper/src",
             "EONConsulting\\LaravelLTI\\": "packages/LaravelLTI/src/",
+            "Tsugi\\": "packages/LaravelTsugi/vendor/tsugi/lib/src/",
             "EONConsulting\\Storyline\\Breadcrumbs\\": "packages/StorylineBreadcrumbs/src/",
             "EONConsulting\\Storyline\\Core\\": "packages/StorylineCore/src/",
             "EONConsulting\\Storyline\\Menu\\": "packages/StorylineMenu/src/",

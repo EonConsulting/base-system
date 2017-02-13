@@ -47,6 +47,10 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Tsugi\\' => 6,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Util\\' => 22,
@@ -155,6 +159,10 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Tsugi\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/LaravelTsugi/vendor/tsugi/lib/src',
         ),
         'Symfony\\Polyfill\\Util\\' => 
         array (
@@ -585,6 +593,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\AppStore\\Facades\\AppStore' => __DIR__ . '/../..' . '/packages/AppStore/src/Facades/AppStore.php',
         'EONConsulting\\LaravelLTI\\Facades\\LaravelLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Facades/LaravelLTI.php',
         'EONConsulting\\LaravelLTI\\Http\\Controllers\\LTIBaseController' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/LTIBaseController.php',
+        'EONConsulting\\LaravelLTI\\Http\\Controllers\\LaunchLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/LaunchLTI.php',
         'EONConsulting\\LaravelLTI\\LaravelLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/LaravelLTI.php',
         'EONConsulting\\LaravelLTI\\LaravelLTIServiceProvider' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/LaravelLTIServiceProvider.php',
         'EONConsulting\\Meta\\Classes\\Classifications' => __DIR__ . '/../..' . '/packages/MetaClassification/src/Classes/Classifications.php',

@@ -2,7 +2,8 @@
 
 Auth::routes();
 Route::get('/', function () {
-    return view('welcome');
+    return laravel_lti()->launch();
+//    return view('welcome');
 });
 
 Route::get('/app-store', function() {

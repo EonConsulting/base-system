@@ -178,6 +178,7 @@ return array(
     'EONConsulting\\AppStore\\Facades\\AppStore' => $baseDir . '/packages/AppStore/src/Facades/AppStore.php',
     'EONConsulting\\LaravelLTI\\Facades\\LaravelLTI' => $baseDir . '/packages/LaravelLTI/src/Facades/LaravelLTI.php',
     'EONConsulting\\LaravelLTI\\Http\\Controllers\\LTIBaseController' => $baseDir . '/packages/LaravelLTI/src/Http/Controllers/LTIBaseController.php',
+    'EONConsulting\\LaravelLTI\\Http\\Controllers\\LaunchLTI' => $baseDir . '/packages/LaravelLTI/src/Http/Controllers/LaunchLTI.php',
     'EONConsulting\\LaravelLTI\\LaravelLTI' => $baseDir . '/packages/LaravelLTI/src/LaravelLTI.php',
     'EONConsulting\\LaravelLTI\\LaravelLTIServiceProvider' => $baseDir . '/packages/LaravelLTI/src/LaravelLTIServiceProvider.php',
     'EONConsulting\\Meta\\Classes\\Classifications' => $baseDir . '/packages/MetaClassification/src/Classes/Classifications.php',
