@@ -50,6 +50,7 @@ return array(
     'EONConsulting\\Storyline\\Core\\' => array($baseDir . '/packages/StorylineCore/src'),
     'EONConsulting\\Storyline\\Breadcrumbs\\' => array($baseDir . '/packages/StorylineBreadcrumbs/src'),
     'EONConsulting\\RolesPermissions\\' => array($baseDir . '/packages/RolesPermissions/src'),
+    'EONConsulting\\PHPStencil\\' => array($baseDir . '/packages/PHPStencil/src'),
     'EONConsulting\\PHPSaasWrapper\\' => array($baseDir . '/packages/PHPSaasWrapper/src'),
     'EONConsulting\\Meta\\' => array($baseDir . '/packages/MetaClassification/src'),
     'EONConsulting\\LaravelLTI\\' => array($baseDir . '/packages/LaravelLTI/src'),

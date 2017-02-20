@@ -56,6 +56,7 @@
                             <li><a href="<?php echo e(url('/login')); ?>">Login</a></li>
                             <li><a href="<?php echo e(url('/register')); ?>">Register</a></li>
                         <?php else: ?>
+                            <li><a href="<?php echo e(route('lti.index')); ?>">Storyline</a></li>
                             <li><a href="<?php echo e(route('eon.laravellti.appstore')); ?>">App Store</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">

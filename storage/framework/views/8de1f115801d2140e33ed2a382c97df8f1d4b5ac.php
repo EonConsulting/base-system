@@ -132,7 +132,7 @@
         <div class="col-md-12">
             <?php if(array_key_exists('children', $taxonomy)): ?>
                 <?php $__currentLoopData = $taxonomy['children']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
-                    <div class="col-md-4 subtopic-card">
+                    <div class="col-md-3 subtopic-card">
                         <a class="topic-container" href="<?php echo e(route('lti.single', [$config, $item['link']])); ?>">
                             <img src="<?php echo e((array_key_exists('img', $item) && $item['img'] != '') ? ((strpos($item['img'], 'http') !== false) ? $item['img'] : '/vendor/storyline/core/images/' . $item['img']) : 'http://placehold.it/240x200'); ?>" alt="" class="img responsive-img">
                             <div class="card-title">
@@ -143,10 +143,14 @@
                                 <!-- hover effect -->
                                 
                             </div>
+                            <div class="clearfix"></div>
                         </a>
+                        <div class="clearfix"></div>
+                        <br />
                     </div>
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
             <?php endif; ?>
+            <div class="clearfix"></div>
         </div>
     </div>
 </div>

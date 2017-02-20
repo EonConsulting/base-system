@@ -32,6 +32,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'ae6ffad41123853881ab36552b22bfad' => __DIR__ . '/../..' . '/packages/MetaClassification/src/functions.php',
         'f61f2212391b2dcf70f6dfaff981f35e' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/functions.php',
         'ea7408bee1ce2041c0002e453fed7a27' => __DIR__ . '/../..' . '/packages/AppStore/src/functions.php',
+        'c1e393b2be3d32041e26f09d443bc744' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Http/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -117,6 +118,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
             'EONConsulting\\Storyline\\Core\\' => 29,
             'EONConsulting\\Storyline\\Breadcrumbs\\' => 36,
             'EONConsulting\\RolesPermissions\\' => 31,
+            'EONConsulting\\PHPStencil\\' => 25,
             'EONConsulting\\PHPSaasWrapper\\' => 29,
             'EONConsulting\\Meta\\' => 19,
             'EONConsulting\\LaravelLTI\\' => 25,
@@ -323,6 +325,10 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\RolesPermissions\\' => 
         array (
             0 => __DIR__ . '/../..' . '/packages/RolesPermissions/src',
+        ),
+        'EONConsulting\\PHPStencil\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/PHPStencil/src',
         ),
         'EONConsulting\\PHPSaasWrapper\\' => 
         array (
@@ -595,6 +601,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\LaravelLTI\\Classes\\Domains' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Classes/Domains.php',
         'EONConsulting\\LaravelLTI\\Classes\\Readers\\ImportConfig' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Classes/Readers/ImportConfig.php',
         'EONConsulting\\LaravelLTI\\Facades\\LaravelLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Facades/LaravelLTI.php',
+        'EONConsulting\\LaravelLTI\\Http\\Controllers\\DeleteLTIToolController' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/DeleteLTIToolController.php',
         'EONConsulting\\LaravelLTI\\Http\\Controllers\\InstallLTIToolController' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/InstallLTIToolController.php',
         'EONConsulting\\LaravelLTI\\Http\\Controllers\\LTIBaseController' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/LTIBaseController.php',
         'EONConsulting\\LaravelLTI\\Http\\Controllers\\LaunchLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Http/Controllers/LaunchLTI.php',
@@ -627,6 +634,37 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\PHPSaasWrapper\\src\\Factories\\Factory' => __DIR__ . '/../..' . '/packages/PHPSaasWrapper/src/Factories/Factory.php',
         'EONConsulting\\PHPSaasWrapper\\src\\PHPSaasWrapper' => __DIR__ . '/../..' . '/packages/PHPSaasWrapper/src/PHPSaasWrapper.php',
         'EONConsulting\\PHPSaasWrapper\\src\\PHPSaasWrapperServiceProvider' => __DIR__ . '/../..' . '/packages/PHPSaasWrapper/src/PHPSaasWrapperServiceProvider.php',
+        'EONConsulting\\PHPStencil\\PHPStencil' => __DIR__ . '/../..' . '/packages/PHPStencil/src/PHPStencil.php',
+        'EONConsulting\\PHPStencil\\PHPStencilServiceProvider' => __DIR__ . '/../..' . '/packages/PHPStencil/src/PHPStencilServiceProvider.php',
+        'EONConsulting\\PHPStencil\\src\\Events\\CarModel' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Events/CarModel.php',
+        'EONConsulting\\PHPStencil\\src\\Events\\Event' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Events/Event.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\AdapterFactory' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/AdapterFactory.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Config' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Config.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Factory' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Factory.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\GUI\\Adapters\\FormAdapter' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/GUI/Adapters/FormAdapter.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\GUI\\Adapters\\ListAdapter' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/GUI/Adapters/ListAdapter.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\GUI\\GUI' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/GUI/GUI.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\GUI\\GUIAdapterInterface' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/GUI/GUIAdapterInterface.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\GUI\\GUIEnum' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/GUI/GUIEnum.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\GUI\\GUIFactory' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/GUI/GUIFactory.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Text\\Adapters\\CSVAdapter' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Text/Adapters/CSVAdapter.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Text\\Adapters\\JSONAdapter' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Text/Adapters/JSONAdapter.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Text\\Adapters\\XMLAdapter' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Text/Adapters/XMLAdapter.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Text\\Text' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Text/Text.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Text\\TextAdapterInterface' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Text/TextAdapterInterface.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Text\\TextEnum' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Text/TextEnum.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\Text\\TextFactory' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/Text/TextFactory.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\Adapters\\RestAdapter' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/Adapters/RestAdapter.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\Adapters\\SoapAdapter' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/Adapters/SoapAdapter.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\REST\\Controllers\\RestBaseController' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/REST/Controllers/RestBaseController.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\REST\\Controllers\\RestController' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/REST/Controllers/RestController.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\SOAP\\Controllers\\SoapBaseController' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/SOAP/Controllers/SoapBaseController.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\WebService' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/WebService.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\WebServiceAdapterInterface' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/WebServiceAdapterInterface.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\WebServiceEnum' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/WebServiceEnum.php',
+        'EONConsulting\\PHPStencil\\src\\Factories\\WebService\\WebServiceFactory' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Factories/WebService/WebServiceFactory.php',
+        'EONConsulting\\PHPStencil\\src\\Models\\DummyTable' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Models/DummyTable.php',
+        'EONConsulting\\PHPStencil\\src\\Observers\\CarModelObserver' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Observers/CarModelObserver.php',
         'EONConsulting\\RolesPermissions\\Facades\\RolesPermissions' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Facades/RolesPermissions.php',
         'EONConsulting\\RolesPermissions\\Models\\Permission' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Models/Permission.php',
         'EONConsulting\\RolesPermissions\\Models\\Role' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Models/Role.php',
