@@ -176,10 +176,11 @@ return [
         \EONConsulting\Storyline\Nav\StorylineNavServiceProvider::class,
         \EONConsulting\Storyline\Search\StorylineSearchServiceProvider::class,
         \EONConsulting\Storyline\TagCloud\StorylineTagCloudServiceProvider::class,
-//        \EONConsulting\RolesPermissions\RolesPermissionsServiceProvider::class,
+        \EONConsulting\RolesPermissions\RolesPermissionsServiceProvider::class,
         \EONConsulting\AppStore\AppStoreServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
-        EONConsulting\PHPStencil\PHPStencilServiceProvider::class,
+//        EONConsulting\PHPStencil\PHPStencilServiceProvider::class,
+//        \Modules\Core\Providers\AsgardServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -21,7 +21,7 @@ use Symfony\Component\HttpFoundation\Request;
  * setController() you can set a new controller that is used in the processing
  * of the request.
  *
- * Http should be callables.
+ * Controllers should be callables.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
  */

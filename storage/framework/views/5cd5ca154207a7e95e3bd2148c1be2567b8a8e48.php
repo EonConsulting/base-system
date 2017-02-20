@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <link href="/vendor/roles/css/styles.css" rel="stylesheet">
 
     <?php echo $__env->yieldContent('custom-styles'); ?>
 
@@ -64,6 +65,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
+                                    <li><a href="<?php echo e(route('eon.admin.roles')); ?>">Roles and Permissions</a></li>
                                     <li><a href="<?php echo e(route('eon.laravellti.install')); ?>">Install LTI Component</a></li>
                                     <li class="divider"></li>
                                     <li>

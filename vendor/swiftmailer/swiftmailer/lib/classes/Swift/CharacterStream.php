@@ -12,7 +12,7 @@
  * An abstract means of reading and writing data in terms of characters as opposed
  * to bytes.
  *
- * assets implementing this interface may use a subsystem which requires less
+ * Classes implementing this interface may use a subsystem which requires less
  * memory than working with large strings of data.
  *
  * @author Chris Corbyn

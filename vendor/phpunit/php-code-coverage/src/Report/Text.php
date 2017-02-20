@@ -89,7 +89,7 @@ class Text
         }
 
         $classes = sprintf(
-            '  assets: %6s (%d/%d)',
+            '  Classes: %6s (%d/%d)',
             Util::percent(
                 $report->getNumTestedClassesAndTraits(),
                 $report->getNumClassesAndTraits(),

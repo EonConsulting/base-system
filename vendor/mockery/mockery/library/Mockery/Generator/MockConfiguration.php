@@ -270,7 +270,7 @@ class MockConfiguration
             if ($this->getTargetObject() == false && $dtc->isFinal()) {
                 throw new \Mockery\Exception(
                     'The class ' . $this->targetClassName . ' is marked final and its methods'
-                    . ' cannot be replaced. assets marked final can be passed in'
+                    . ' cannot be replaced. Classes marked final can be passed in'
                     . ' to \Mockery::mock() as instantiated objects to create a'
                     . ' partial mock, but only if the mock is not subject to type'
                     . ' hinting checks.'

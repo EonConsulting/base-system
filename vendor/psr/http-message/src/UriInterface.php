@@ -254,7 +254,7 @@ interface UriInterface
      * are assumed to be relative to some base path known to the application or
      * consumer.
      *
-     * Users can provide both encoded and decoded path characters.
+     * Roles can provide both encoded and decoded path characters.
      * Implementations ensure the correct encoding as outlined in getPath().
      *
      * @param string $path The path to use with the new instance.
@@ -269,7 +269,7 @@ interface UriInterface
      * This method MUST retain the state of the current instance, and return
      * an instance that contains the specified query string.
      *
-     * Users can provide both encoded and decoded query characters.
+     * Roles can provide both encoded and decoded query characters.
      * Implementations ensure the correct encoding as outlined in getQuery().
      *
      * An empty query string value is equivalent to removing the query string.
@@ -286,7 +286,7 @@ interface UriInterface
      * This method MUST retain the state of the current instance, and return
      * an instance that contains the specified URI fragment.
      *
-     * Users can provide both encoded and decoded fragment characters.
+     * Roles can provide both encoded and decoded fragment characters.
      * Implementations ensure the correct encoding as outlined in getFragment().
      *
      * An empty fragment value is equivalent to removing the fragment.
