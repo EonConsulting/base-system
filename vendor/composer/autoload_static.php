@@ -34,6 +34,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'f61f2212391b2dcf70f6dfaff981f35e' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/functions.php',
         'ea7408bee1ce2041c0002e453fed7a27' => __DIR__ . '/../..' . '/packages/AppStore/src/functions.php',
         'c1e393b2be3d32041e26f09d443bc744' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Http/helpers.php',
+        '6d92682490cadea3b9b17715fde23027' => __DIR__ . '/../..' . '/packages/FileManager/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -130,6 +131,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
             'EONConsulting\\PHPSaasWrapper\\' => 29,
             'EONConsulting\\Meta\\' => 19,
             'EONConsulting\\LaravelLTI\\' => 25,
+            'EONConsulting\\FileManager\\' => 26,
             'EONConsulting\\AppStore\\' => 23,
         ),
         'D' => 
@@ -369,6 +371,10 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\LaravelLTI\\' => 
         array (
             0 => __DIR__ . '/../..' . '/packages/LaravelLTI/src',
+        ),
+        'EONConsulting\\FileManager\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/FileManager/src',
         ),
         'EONConsulting\\AppStore\\' => 
         array (
@@ -750,6 +756,10 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\AppStore\\AppStoreServiceProvider' => __DIR__ . '/../..' . '/packages/AppStore/src/AppStoreServiceProvider.php',
         'EONConsulting\\AppStore\\Facades\\AppStore' => __DIR__ . '/../..' . '/packages/AppStore/src/Facades/AppStore.php',
         'EONConsulting\\AppStore\\Http\\Controllers\\AppStoreController' => __DIR__ . '/../..' . '/packages/AppStore/src/Http/Controllers/AppStoreController.php',
+        'EONConsulting\\FileManager\\Facades\\FileManager' => __DIR__ . '/../..' . '/packages/FileManager/src/Facades/FileManager.php',
+        'EONConsulting\\FileManager\\FileManager' => __DIR__ . '/../..' . '/packages/FileManager/src/FileManager.php',
+        'EONConsulting\\FileManager\\FileManagerServiceProvider' => __DIR__ . '/../..' . '/packages/FileManager/src/FileManagerServiceProvider.php',
+        'EONConsulting\\FileManager\\Http\\Controllers\\FileManagerController' => __DIR__ . '/../..' . '/packages/FileManager/src/Http/Controllers/FileManagerController.php',
         'EONConsulting\\LaravelLTI\\Classes\\Domains' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Classes/Domains.php',
         'EONConsulting\\LaravelLTI\\Classes\\Readers\\ImportConfig' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Classes/Readers/ImportConfig.php',
         'EONConsulting\\LaravelLTI\\Facades\\LaravelLTI' => __DIR__ . '/../..' . '/packages/LaravelLTI/src/Facades/LaravelLTI.php',
@@ -820,7 +830,19 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'EONConsulting\\PHPStencil\\src\\Models\\DummyTable' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Models/DummyTable.php',
         'EONConsulting\\PHPStencil\\src\\Observers\\CarModelObserver' => __DIR__ . '/../..' . '/packages/PHPStencil/src/Observers/CarModelObserver.php',
         'EONConsulting\\RolesPermissions\\Facades\\RolesPermissions' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Facades/RolesPermissions.php',
+        'EONConsulting\\RolesPermissions\\Http\\Controllers\\Admin\\Roles\\DepartmentsController' => __DIR__ . '/../..',
+        'EONConsulting\\RolesPermissions\\Http\\Controllers\\Admin\\Roles\\PermissionsController' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Controllers/Admin/Roles/PermissionsController.php',
+        'EONConsulting\\RolesPermissions\\Http\\Controllers\\Admin\\Roles\\RolesController' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Controllers/Admin/Roles/RolesController.php',
+        'EONConsulting\\RolesPermissions\\Http\\Controllers\\Admin\\Roles\\UsersController' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Controllers/Admin/Roles/UsersController.php',
+        'EONConsulting\\RolesPermissions\\Http\\Requests\\StoreDepartmentRequest' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Requests/StoreDepartmentRequest.php',
+        'EONConsulting\\RolesPermissions\\Http\\Requests\\StorePermissionRequest' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Requests/StorePermissionRequest.php',
+        'EONConsulting\\RolesPermissions\\Http\\Requests\\StoreRoleRequest' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Requests/StoreRoleRequest.php',
+        'EONConsulting\\RolesPermissions\\Http\\Requests\\UpdateDepartmentRequest' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Requests/UpdateDepartmentRequest.php',
+        'EONConsulting\\RolesPermissions\\Http\\Requests\\UpdatePermissionRequest' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Requests/UpdatePermissionRequest.php',
+        'EONConsulting\\RolesPermissions\\Http\\Requests\\UpdateRoleRequest' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Http/Requests/UpdateRoleRequest.php',
+        'EONConsulting\\RolesPermissions\\Models\\Department' => __DIR__ . '/../..',
         'EONConsulting\\RolesPermissions\\Models\\Permission' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Models/Permission.php',
+        'EONConsulting\\RolesPermissions\\Models\\PermissionGroup' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Models/PermissionGroup.php',
         'EONConsulting\\RolesPermissions\\Models\\Role' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/Models/Role.php',
         'EONConsulting\\RolesPermissions\\RolesPermissions' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/RolesPermissions.php',
         'EONConsulting\\RolesPermissions\\RolesPermissionsServiceProvider' => __DIR__ . '/../..' . '/packages/RolesPermissions/src/RolesPermissionsServiceProvider.php',
@@ -3458,6 +3480,7 @@ class ComposerStaticInite0ad392bedd384cf91de651b0944781f
         'React\\Promise\\PromisorInterface' => __DIR__ . '/../..' . '/packages/StorylineSearch/vendor/react/promise/src/PromisorInterface.php',
         'React\\Promise\\RejectedPromise' => __DIR__ . '/../..' . '/packages/StorylineSearch/vendor/react/promise/src/RejectedPromise.php',
         'React\\Promise\\UnhandledRejectionException' => __DIR__ . '/../..' . '/packages/StorylineSearch/vendor/react/promise/src/UnhandledRejectionException.php',
+        'RolesPermissionsDB' => __DIR__ . '/../..' . '/database/migrations/2017_01_01_000000_RolesPermissionsDB.php',
         'ScopesTest' => __DIR__ . '/..' . '/dimsav/laravel-translatable/tests/ScopesTest.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',

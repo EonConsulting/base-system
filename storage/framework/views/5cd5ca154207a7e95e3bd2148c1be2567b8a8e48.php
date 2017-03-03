@@ -57,6 +57,7 @@
                             <li><a href="<?php echo e(url('/login')); ?>">Login</a></li>
                             <li><a href="<?php echo e(url('/register')); ?>">Register</a></li>
                         <?php else: ?>
+                            <?php echo $__env->yieldContent('custom-menu-links'); ?>
                             <li><a href="<?php echo e(route('lti.index')); ?>">Storyline</a></li>
                             <li><a href="<?php echo e(route('eon.laravellti.appstore')); ?>">App Store</a></li>
                             <li class="dropdown">
@@ -65,6 +66,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
+                                    <li><a href="<?php echo e(route('eon.file-manager')); ?>">File Manager</a></li>
                                     <li><a href="<?php echo e(route('eon.admin.roles')); ?>">Roles and Permissions</a></li>
                                     <li><a href="<?php echo e(route('eon.laravellti.install')); ?>">Install LTI Component</a></li>
                                     <li class="divider"></li>

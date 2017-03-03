@@ -178,6 +178,7 @@ return [
         \EONConsulting\Storyline\TagCloud\StorylineTagCloudServiceProvider::class,
         \EONConsulting\RolesPermissions\RolesPermissionsServiceProvider::class,
         \EONConsulting\AppStore\AppStoreServiceProvider::class,
+        \EONConsulting\FileManager\FileManagerServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
 //        EONConsulting\PHPStencil\PHPStencilServiceProvider::class,
 //        \Modules\Core\Providers\AsgardServiceProvider::class,
@@ -252,6 +253,7 @@ return [
         'AppStore' => \EONConsulting\AppStore\Facades\AppStore::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'PHPStencil' => \Packages\PHPStencil\src\Facades\PHPStencil::class,
+        'FileManager' => \EONConsulting\FileManager\Facades\FileManager::class,
 //        'PHPSaasWrapper' => \EONConsulting\PHPSaasWrapper\src\Facades\PHPSaasWrapper::class,
 
     ],

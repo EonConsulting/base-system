@@ -58,6 +58,7 @@ return array(
     'EONConsulting\\PHPSaasWrapper\\' => array($baseDir . '/packages/PHPSaasWrapper/src'),
     'EONConsulting\\Meta\\' => array($baseDir . '/packages/MetaClassification/src'),
     'EONConsulting\\LaravelLTI\\' => array($baseDir . '/packages/LaravelLTI/src'),
+    'EONConsulting\\FileManager\\' => array($baseDir . '/packages/FileManager/src'),
     'EONConsulting\\AppStore\\' => array($baseDir . '/packages/AppStore/src'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),

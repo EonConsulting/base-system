@@ -56,6 +56,7 @@
                             <li><a href="{{ url('/login') }}">Login</a></li>
                             <li><a href="{{ url('/register') }}">Register</a></li>
                         @else
+                            @yield('custom-menu-links')
                             <li><a href="{{ route('lti.index') }}">Storyline</a></li>
                             <li><a href="{{ route('eon.laravellti.appstore') }}">App Store</a></li>
                             <li class="dropdown">
@@ -64,6 +65,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
+                                    <li><a href="{{ route('eon.file-manager') }}">File Manager</a></li>
                                     <li><a href="{{ route('eon.admin.roles') }}">Roles and Permissions</a></li>
                                     <li><a href="{{ route('eon.laravellti.install') }}">Install LTI Component</a></li>
                                     <li class="divider"></li>

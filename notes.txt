@@ -1,0 +1,9 @@
+- 1 - Rename Departments to Groups
+2 - Drilldown like explorer from side nav
+- 3 - Font Awesome icons
+- 4 - Maximize and Minimize function
+5 - External users - create user dynamically
+6 - Plugins for XML, Math, Font Awesome, PDF to CKEditor
+- 7 - Page Divider for Print and PDF (Use CKEditor)
+- 8 - Save pages
+9 - Implement AdminLTE theme
